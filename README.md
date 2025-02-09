@@ -1,23 +1,12 @@
-## Simple Voice Chat - A working voice chat in Minecraft!
+# Neat
+Functional minimalistic Unit Frames for the modern Minecrafter
 
-### Features
-    Push to talk
-    Voice activation
-    Proximity voice chat
-    Password protected group chats
-    Opus codec
-    RNNoise recurrent neural network noise suppression
-    OpenAL audio
-    Cross compatibility between Fabric, NeoForge, Forge, Quilt, Bukkit, Spigot and Paper
-    Support for Velocity, BungeeCord and Waterfall
-    Compatibility with ModMenu (Use ClothConfig for a better configuration UI)
-    Configurable push to talk key
-    Microphone test playback
-    Configurable voice distance
-    Whispering
-    Individual player volume adjustment
-    Microphone amplification
-    3D sound
-    AES encryption
-    Audio recording with separate audio tracks
-    A powerful API
+## Release Process
+Neat's release process is mostly automated. Here's the steps:
+
+1. Pull master so you're up to date, make sure everything is committed
+2. Run . If you don't know or remember what those are, look at 
+3. In the editor that pops up, write the changelog
+4. In , increment the build_number by one for the next version. Commit this.
+5. Push master and the release tag: 
+6. Shortly after, the mod should be automatically uploaded to GitHub's release tab, Modrinth, and CurseForge.
